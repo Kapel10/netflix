@@ -8,11 +8,19 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700,900');
 
-body {
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background: radial-gradient(#fff, #aaa);
   background-size: 100vw 100vh;
   overflow: hidden;
-  padding-top: 40vh;
+
 }
 
 .txt {

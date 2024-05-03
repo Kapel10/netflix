@@ -3,8 +3,10 @@ import './title.scss'
 const LoadingPage = () => {
 
     return (
-        <div className='txt'>
-            NUFILM
+        <div className='loading-container'>
+            <div className='txt'>
+                NUFILM
+            </div>
         </div>
     )
 }
